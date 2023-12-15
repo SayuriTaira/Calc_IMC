@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/a77310f8-248c-44bf-bed6-7e2f1003f244.jpg);
+    background-size: 100%, 100%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.imc-calculator-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+
+.imc-calculator {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    height: 400px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px;
+}
+
+.input-content {
+    width: 500px;
+    height: 396px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(54, 54, 54);
+}
+
+.label-input {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.result-content {
+    width: 300px;
+    height: 397px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.result-text {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.imc-result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.result {
+    margin-top: 10px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.classification {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+label {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+input {
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(31, 31, 31);
+    border-radius: 10px;
+    padding-left: 27px;
+}
+
+.radio {
+    width: 20px;
+    height: 10px;
+    margin-left: 5px;
+}
+
+.gender-text {
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gender-label {
+    margin-bottom: 10px;
+}
+
+form {
+    margin-right: 80px;
+}
+
+#weight {
+    margin-top: 15px;
+}
+
+#height {
+    margin-top: 15px;
+}
+
+button {
+    margin-top: 40px;
+    width: 65px;
+    height: 30px;
+    border: 2px solid rgb(236, 236, 236);
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(31, 31, 31);
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(228, 227, 227);
+    color: black;
+    border: 2px solid rgb(63, 63, 63);
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora IMC</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="images/icon.png">
+    </head>
+    <body>
+        <div class="imc-calculator-content">
+            <div class="imc-calculator">
+                <div class="input-content">
+                    <h1>Calculadora IMC</h1>
+
+                    <form>
+                        <div class="label-input">
+                            <label for="weight">Peso:</label>
+                            <input type="text" id="weight" placeholder="Quilos" maxlength="3"><br> 
+                        </div>
+    
+                        <div class="label-input">
+                            <label for="height">Altura:</label>
+                            <input type="text" id="height" placeholder="Metros" maxlength="3"><br>
+                        </div>
+                        
+                        <div class="label-input">
+                            <p class="gender-text">Gênero:</p>
+                            <input type="radio" id="homem" name="gender" class="radio">
+                            <label for="homem" class="gender-label">Homem</label>
+                            <input type="radio" id="mulher" name="gender" class="radio">
+                            <label for="mulher" class="gender-label">Mulher</label>
+                        </div>
+                    </form>
+
+                    <button class="result-button" onclick="calcImc()">Calcular</button>
+                </div>
+                <div class="result-content">
+                    <p class="result-text">Resultado:</p>
+                    <p class="imc-result"></p>
+                    <p class="result"></p>
+                    <p class="classification"></p>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
